@@ -110,7 +110,7 @@ namespace Newtonsoft.Json
 
     private static TimeSpan GetUtcOffset(DateTime dateTime)
     {
-#if SILVERLIGHT
+#if SILVERLIGHT && !MONOTOUCH
       return TimeZoneInfo.Local.GetUtcOffset(dateTime);
 #else
       return TimeZone.CurrentTimeZone.GetUtcOffset(dateTime);
