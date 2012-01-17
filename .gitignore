@@ -12,3 +12,4 @@ _ReSharper.*
 *~
 *.swp
 .DS_Store
+Newtonsoft.Json/Newtonsoft.Json.MonoTouch.pidb
