@@ -12,8 +12,5 @@ _ReSharper.*
 *~
 *.swp
 .DS_Store
-Newtonsoft.Json/Newtonsoft.Json.MonoTouch.pidb
-
-Newtonsoft.Json.MonoTouch.userprefs
-
-Newtonsoft.Json.MonoTouch.userprefs
+*.pidb
+*.userprefs
